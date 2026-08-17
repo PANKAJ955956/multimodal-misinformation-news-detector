@@ -1,0 +1,28 @@
+{
+  "datasets": [
+    {
+      "name": "Fakeddit",
+      "description": "Large-scale multimodal fake news dataset with fine-grained 2, 3, and 6-class labels.",
+      "url": "https://github.com/nswamy/Fakeddit",
+      "supported_labels": ["REAL", "FAKE", "MISLEADING", "SATIRE", "MANIPULATED"],
+      "raw_dir": "datasets/raw/fakeddit",
+      "processed_dir": "datasets/processed/fakeddit"
+    },
+    {
+      "name": "MAMI",
+      "description": "Multimedia Automatic Misogyny Identification dataset (SemEval-2022 Task 5).",
+      "url": "https://competitions.codalab.org/competitions/36329",
+      "supported_labels": ["REAL", "FAKE", "MISLEADING", "MANIPULATED"],
+      "raw_dir": "datasets/raw/mami",
+      "processed_dir": "datasets/processed/mami"
+    },
+    {
+      "name": "FakeNewsNet",
+      "description": "News content dataset with social context (PolitiFact and GossipCop).",
+      "url": "https://github.com/KaiDMML/FakeNewsNet",
+      "supported_labels": ["REAL", "FAKE"],
+      "raw_dir": "datasets/raw/fakenewsnet",
+      "processed_dir": "datasets/processed/fakenewsnet"
+    }
+  ]
+}
